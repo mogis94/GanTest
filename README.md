@@ -18,13 +18,11 @@ If attempting to run this code on future versions of Swift, Xcode, or iOS some a
 
 The following steps will guide you through the process of running this application on your local machine, and device.
 
-1. Ensure you have [Xcode 12.0](https://developer.apple.com/download/) installed
-2. Checkout this repository
-3. Open `GanTest.xcodeproj` with Xcode
-4. Go to the project settings, and change the code signing team to your own
-5. Wait for the Swift Packages to download if not.
-
-Code signing settings are left at automatic here for simplicity, you can set these to manual if needed but these steps will not take you through that process.
+1. Ensure you have [Xcode 12.0](https://developer.apple.com/download/) installed.
+2. Checkout this repository.
+3. Pod install, to install all pods for this project.
+4. Open `GanTest.xcworkspace` with Xcode.
+5. Go to the project settings, and change the code signing team to your own.
 
 6. Attach an iPhone running iOS 13.0 or above.
 7. Ensure the iPhone has development mode enabled, from the Devices & Simulators window: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>2</kbd>
